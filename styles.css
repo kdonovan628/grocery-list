@@ -1,0 +1,86 @@
+.header {
+  font-size: larger;
+  color: darkolivegreen;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: rgb(172, 190, 130);
+}
+
+.pantry {
+  border: 5px solid rgb(106, 179, 106);
+  color: aliceblue;
+  text-align: center;
+  height: 70px;
+  width: 350px;
+  background-color: rgb(8, 73, 70);
+}
+
+.canned {
+  border: 5px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: aquamarine;
+}
+
+.dry-goods {
+  position: relative;
+  left: 200px;
+  bottom: 180px;
+  border: 5px solid #ccc;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: aquamarine;
+}
+
+.freezer {
+  position: absolute;
+  text-align: center;
+  color: aliceblue;
+  border: 5px solid rgb(106, 179, 106);
+  height: 70px;
+  width: 350px;
+  bottom: 330px;
+  background-color: rgb(8, 73, 70);
+}
+
+.veggies {
+  position: relative;
+  bottom: 70px;
+  border: 5px solid #ccc;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: aquamarine;
+}
+
+.snacks {
+  position: relative;
+  left: 200px;
+  bottom: 250px;
+  border: 5px solid #ccc;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: aquamarine;
+}
+
+#pantry-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  left: 410px;
+  bottom: 720px;
+}
+
+#freezer-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  left: 200px;
+  bottom: 450px;
+}
